@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="bankapp.css">
+    <script src="bank_app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                
+                <div class="main">
+                    <h4>Account Details</h4><br>
+                <form action="#">
+                
+                
+                <input id="log" type="text" class="text" placeholder="Account number"><br><br>
+                
+                <input id="pass" type="password" class="text" placeholder="Password" ><br> <br>
+                <input id="amo" type="text" class="text" placeholder="Amount"><br><br>
+                <input type="submit" value="Withdrawal" class="button butefct" onclick="Bank.withdraw()"> <br><br>
+                <input type="submit" value="Deposit" class="button button1 butefct" onclick="Bank.deposit()"> <br><br>
+            </form>
+            </div></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</body>
+</html>
